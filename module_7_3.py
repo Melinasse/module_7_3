@@ -2,7 +2,7 @@ import re
 
 class WordsFinder:
     def __init__(self, *file_names: str):
-        self.word = None # Дабавил в itit после метода find, т.к. данный атрибут реализовывается позже
+        self.word = None # Дабавил в init после метода find, т.к. данный атрибут реализовывается позже
         self.file_names = list(file_names)
 
     def get_all_words(self):
